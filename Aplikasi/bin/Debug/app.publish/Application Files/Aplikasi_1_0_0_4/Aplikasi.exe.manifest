@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Aplikasi.exe" version="1.0.0.4" publicKeyToken="0abdeff30a22092e" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Aplikasi" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Aplikasi.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Aplikasi.exe" size="276992">
+      <assemblyIdentity name="Aplikasi" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>na2cCU2t8WPco0IyQPe17oX/vNE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="353792">
+      <assemblyIdentity name="MySql.Data" version="6.3.6.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bXrvmYdcPVAud07N/Wge8/+rZOI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=ALI-PC\ALI" issuerKeyHash="a21e4de5eac1c33143ffc89a1e8a6fa2f7226716" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Z6PvZvV3I54J3mUbTTIFomtytBE=</DigestValue></Reference></SignedInfo><SignatureValue>m2zsLDqmyvBhH4OcNPComDT9z2t5yAZtv1qwwLoPbzaE167CUF59F6bs47GJWIFzqNfvJ3FaGEy7H43aPf/VwfmThmQS0nvC5wwG79D5xWB2oqttHo5MYyAJ8QF1ovoMUVaB+THTmpiSofLGXYfXHm7JFbYLRPz8nL9pkX5qcZA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tktvq4G8XaA3qI5ZDRD+fjbmGoVFSgqvhaB9uzvYhfnu9h3GFD/PY4e7ro23XE+loMRX/mV3/E6XvyrTQ//6QK08UnsBZYMI5WkXY/CeYTYsBgJ4tPwJM/bwU5McXglfj0FMRvasbA7heAPJRyDwLlI1jI9wNiwCrrsIdkZTVlU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="11b4726ba205324d1b65de099e2377f566efa367" Description="" Url=""><as:assemblyIdentity name="Aplikasi.exe" version="1.0.0.4" publicKeyToken="0abdeff30a22092e" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALI-PC\ALI</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>fbqWqfxYxnGklJK8+sg+L4ZUM3Q=</DigestValue></Reference></SignedInfo><SignatureValue>BRp5Vl1IK7CfpIXu3GzD/uxLE1tEWQErPLTKXSdDfywAHxeB85Bt3JvzhNE0MiWY6Th9DD7rVX6J099MLnHfF8uKMqKUuNDKP2YhzXseZLoTP02e5tMhonwL6OdcOMJfDWHO9MJTXK7QCx4imoFQ/Nl1rCFq23zKaxNT/sUXCu0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tktvq4G8XaA3qI5ZDRD+fjbmGoVFSgqvhaB9uzvYhfnu9h3GFD/PY4e7ro23XE+loMRX/mV3/E6XvyrTQ//6QK08UnsBZYMI5WkXY/CeYTYsBgJ4tPwJM/bwU5McXglfj0FMRvasbA7heAPJRyDwLlI1jI9wNiwCrrsIdkZTVlU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQUmgx4JdgtKJDO4E8kmcnrjANBgkqhkiG9w0BAQUFADAfMR0wGwYDVQQDHhQAQQBMAEkALQBQAEMAXABBAEwASTAeFw0xODAzMDIwMzI4MjRaFw0xOTAzMDIwOTI4MjRaMB8xHTAbBgNVBAMeFABBAEwASQAtAFAAQwBcAEEATABJMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2S2+rgbxdoDeojlkNEP5+NuYahUVKCq+FoH27O9iF+e72HcYUP89jh7uujbdcT6WgxFf+ZXf8Tpe/KtND//pArTxSewFlgwjlaRdj8J5hNiwGAni0/Akz9vBTkxxeCV+PQUxG9qxsDuF4A8lHIPAuUjWMj3A2LAKuuwh2RlNWVQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAFcScP2qgZ+3VxcLdopi5nxs9opi/xPpKn3UX4jx8yujisWN8wL45kLaS6y5jr6EcjmS72c1E41EJ+E5osru7BrJBivkscbVSteGzUmYMSpL+hCQxdmrBY8c63lQJk+RQ6DxFGQ4sGUu1B3O4SO+tUAKui/urOXl135ShslT96VI</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
