@@ -8,14 +8,17 @@ Aplikasi Crud Inventory
   </br>
   c. trigger mysql
   </br>
-  
-  <table class=default>
+ </br>
  fiture :
-  <td>a. login dengan 2 aktor (admin dan user)</td>
- b. input data barang
- c. hapus data barang
- d. input tambah barang masuk
- e. hapus barang masuk
- d. input barang keluar
- e. hapus barang keluar
-</table>
+  </br>
+  a. login dengan 2 aktor (admin dan user)
+   </br>
+ b. input data barang </br>
+ c. hapus data barang </br>
+ d. input tambah barang masuk </br>
+ e. hapus barang masuk </br>
+ f. input barang keluar </br>
+ g. hapus barang keluar </br>
+
+
+
